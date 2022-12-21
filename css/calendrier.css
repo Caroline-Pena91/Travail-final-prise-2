@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Nunito";
-}
-
 .title{
     background-color: rgb(63, 126, 145);
     width: 100%;
