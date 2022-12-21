@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito";
+}
+
+.title{
+    background-color: rgb(63, 126, 145);
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #636363;
+    color: white;
+    font-size: 1.9em;
+    font-size: 700;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main{
+    margin-top: 110px;
+}
+
+.calendarContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../Images/waterfall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.daysOfWeek,
+.daysContainer{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+padding: 5px;
+text-align: right;
+font-weight: 1000;
+
+}
+
+.monthTitle{
+    font-size: 1.7em;
+    font-weight: 700;
+    background-color: rgb(63, 126, 145);
+    color: #e6e6e6;
+    text-align: center;
+    padding: 5px;
+    border-radius:7px;
+    border: 3px solid #636363;
+}
+
+.months{
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:center;
+    border-radius: 10px;
+    
+}
+
+.month{
+    background-color: #faeeee;
+    font-family: "Nunito";
+    border-radius: 10px;
+}
+
+.daysOfWeek{
+    text-align: left;
+}
+
+.holiday{
+    display: inline-block;
+    color: rgb(97, 196, 67);
+}
+
+.rendezVousDispo{
+    display: inline-block;
+    color: rgb(62, 233, 245);
+}
+
