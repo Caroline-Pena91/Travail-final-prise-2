@@ -16,6 +16,10 @@
     border-radius: 10px;
 }
 
+body{
+    font-family: "Nunito";
+}
+
 .main{
     margin-top: 110px;
 }

@@ -19,6 +19,7 @@
 .content {
   border-radius: 30px;
   padding: 10px;
+  font-family: "Nunito";
 }
 .content.p{
     text-align: justify;
